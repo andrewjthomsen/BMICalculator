@@ -12,6 +12,11 @@ double weight, height;
 // Testing values
 // weight = 130;
 // height = 75;
+cout << "Enter weight in pounds: ";
+cin >> weight;
+
+cout << "Enter height in inches: ";
+cin >> height;
 
 double weightInKilograms, heightInMeters;
 
