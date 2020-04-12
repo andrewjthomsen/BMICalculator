@@ -35,9 +35,17 @@ cout << "BMI = "<< BMI << endl;
 // over 35  Gravely overweight
 
 if (BMI < 16)
-cout << "Seriously underweight" << endl;
-
-
+cout << "Seriously underweight" << endl << endl;
+else if (BMI < 18)
+cout << "Underweight" << endl << endl;
+else if (BMI < 24)
+cout << "Normal weight" << endl << endl;
+else if (BMI < 29)
+cout << "Overweight" << endl << endl;
+else if (BMI < 35)
+cout << "Seriously overweight" << endl << endl;
+else 
+cout << "Gravely overweight" << endl << endl;
 
 return 0;
 
